@@ -67,68 +67,68 @@ img {
 
 /* -RISOLUZIONE responsive - 780PX e 420px */
 @media screen and (max-width: 780px) {
- * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
- }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
- body {
-   font-size: 22px;
-   font-family: 'Ubuntu', sans-serif;
- }
+  body {
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+  }
 
- .row {
-   width: 100%;
-   margin: 0;
- }
+  .row {
+    width: 100%;
+    margin: 0;
+  }
 
- #lezioni .row>.left,
- #lezioni .row>.right,
- #steps .row>.left,
- #steps .row>.central,
- #steps .row>.right,
- #why .row>.first,
- #why .row>.second,
- #why .row>.third {
-   width: 100%;
-   padding: 40px 20px;
-   margin-top: 10px;
- }
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    padding: 40px 20px;
+    margin-top: 10px;
+  }
 
- #why .row img {
-   background-color: #9494d1;
- }
+  #why .row img {
+    background-color: #9494d1;
+  }
 
- h3 {
-   font-size: 30px;
-   padding: 20px 0;
- }
+  h3 {
+    font-size: 30px;
+    padding: 20px 0;
+  }
 
- h1 {
-   font-size: 40px;
-   padding: 40px 25px;
-   color: #111b2a;
- }
+  h1 {
+    font-size: 40px;
+    padding: 40px 25px;
+    color: #111b2a;
+  }
 
- hr {
-   margin-top: 40px;
-   border: 2px solid #ffffff;
- }
+  hr {
+    margin-top: 40px;
+    border: 2px solid #ffffff;
+  }
 
- .container.grey {
-   background-color: #e0e0ff;
-   width: 100%;
- }
+  .container.grey {
+    background-color: #e0e0ff;
+    width: 100%;
+  }
 
- #steps {
-   background-color: #66a3ff;
-   width: 100%;
- }
+  #steps {
+    background-color: #66a3ff;
+    width: 100%;
+  }
 
- #steps h1 {
-   color: #111b2a;
- }
+  #steps h1 {
+    color: #111b2a;
+  }
 }
 
 /*  -RISOLUZIONE responsive - 1024px */
@@ -203,12 +203,10 @@ img {
 
   #steps .left,
   #steps .right,
-    #steps .central,
-    #why .first,
-    #why .second,
-    #why .third {
-      height: 520px;
-    }
+  #steps .central,
+  #why .first,
+  #why .second,
+  #why .third {
+    height: 520px;
+  }
 }
-
-/*
