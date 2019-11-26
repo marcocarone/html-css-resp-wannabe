@@ -210,3 +210,27 @@ img {
     height: 520px;
   }
 }
+
+/*  -RISOLUZIONE responsive - superiore a 1440px */
+@media screen and (min-width: 1440px) {
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 50%;
+    float: left;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 33%;
+  }
+
+  #steps,
+  #why {
+    float: left;
+    width: 100%;
+  }
+}
