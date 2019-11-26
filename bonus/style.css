@@ -214,6 +214,15 @@ img {
 /*  -RISOLUZIONE responsive - superiore a 1440px */
 @media screen and (min-width: 1440px) {
 
+  body {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .row {
+    width: 80%;
+    margin: 0 auto;
+  }
   /* BLOCCO LEZIONI */
   #lezioni .row>.left, #lezioni .row>.right {
     width: 50%;
